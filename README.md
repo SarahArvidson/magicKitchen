@@ -1,0 +1,75 @@
+# Magic Kitchen Analogy
+
+## An ADHD & Dyscalculia-Friendly Strategy for Understanding JavaScript Objects, Methods, Callers, and Arrow Functions
+
+Hi, I'm Sarah, and I'm learning how to code with ADHD and Dyscalculia. I'm working through the Codecademy Full Stack Developer course but I don't always understand what I'm trying to learn. I have been using ChatGPT to help me revisit concepts in a way that is friendlier to my brain, and I rely heavily on analogies. Here's my latest analogical breathrough. I hope you enjoy it.
+
+## Overview
+
+This repository explains several core JavaScript concepts using a single consistent analogy called the MagicKitchen. I really like baking!
+
+The MagicKitchen Analogy is designed for learners who struggle with abstraction, symbol overload, mental bookkeeping, ADHD, and/or dyscalculia, but it is also accurate enough to hold up under real JavaScript behavior.
+
+The goal is not to memorize syntax but rather to understand how it actually works. This is for people who want to understand how JavaScript decides what runs, who it runs for, and why things sometimes fail silently instead of crashing.
+
+## The Analogy
+
+Even though people are people and not objects, for the sake of the analogy we pretend that Sarah and Alex are baker objects.
+
+- Sarah is a baker object who only makes chocolate chip cookies
+- Alex is a baker object who only makes blueberry cupcakes
+- A MagicKitchen object contains appliances
+- Appliances are properties of the kitchen
+- Appliances become methods (or a means by which the baking happens) when their functions are called
+
+Some appliances are magical and adaptive. One appliance, the oven, is not. It comes from the Dollar General, is very inexpensive, not at all configurable, and was designed for muggles, who eat gross muggle food all the time.
+
+The code in magicKitchen.js walks us through a typical day of baking for Sarah and Alex, using the kitchen features available to them.
+
+### What the Kitchen Represents in JavaScript
+
+- The kitchen is an object
+- The baker is data stored on the object
+- Appliances are properties
+- Calling an appliance makes it a method
+- The kitchen is the caller when it appears to the left of the dot
+
+In JavaScript terms, the caller is always the object to the left of the dot at the moment a function is invoked.
+
+### Normal Functions vs Arrow functions
+
+Magical appliances like the pantry and stand mixer are written as normal functions.
+
+- They adapt based on who is cooking
+- They use this to read kitchen state
+- They ask “who is using me right now”
+
+The oven is a muggle appliance written as an arrow function.
+
+- It ignores who is cooking
+- It follows rules baked in at creation time
+- It does not bind this to the kitchen
+
+This is not a bug. Arrow functions were intentionally designed to ignore the caller. The Dollar General assumes that its muggle patrons aren't going to be baking anything that would require them to change the cooking time or temperature. In fact, the Dollar General doesn't even want their oven users to think about doing that. It will be impossible.
+
+### Why Arrow Functions Exist
+
+Arrow functions were created to solve a different problem.
+
+- They keep 'this' fixed to where the appliance was built, not to the kitchen using it
+- They lock behavior at creation time, like a muggle oven brought in from outside the magical kitchen
+- They make callbacks and array methods predictable
+Arrow functions fail only when we expect them to behave like normal object methods, like the magical appliances in the MagicKitchen.
+
+### Factory functions and Multiple Kitchens
+
+Each kitchen is created by a factory function, which means a brand new kitchen object is built every time the factory runs.
+
+- Each kitchen is its own object, so there is no single shared kitchen
+- Each kitchen has its own state, like its own current baker
+- Bakers do not interfere with each other because they are never using the same kitchen
+- Shared state bugs are avoided because no data is overwritten by another baker
+
+Factories are safer than global objects because they prevent multiple users from accidentally sharing and mutating the same state.
+
+### Check out magicKitchen.js for example code blocks and descriptions. Thanks for reading!
