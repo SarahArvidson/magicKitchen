@@ -2,7 +2,7 @@
 
 ## An ADHD & Dyscalculia-Friendly Strategy for Understanding JavaScript
 
-Hi, I'm Sarah, and I'm learning how to code with ADHD and Dyscalculia. I'm working through the Codecademy Full Stack Developer course but I don't always understand what I'm trying to learn. I have been using ChatGPT to help me revisit concepts in a way that is friendlier to my brain, and I rely heavily on analogies. Here's my latest analogical breathrough. I hope you enjoy it.
+Hi, I'm Sarah, and I'm learning how to code with ADHD and Dyscalculia. I'm working through the Codecademy Full Stack Developer course but I don't always understand what I'm trying to learn. I have been using ChatGPT to help me revisit concepts in a way that is friendlier to my brain, and I rely heavily on analogies. Here's my latest analogical breakthrough. I hope you enjoy it.
 
 ## Overview
 
@@ -22,7 +22,7 @@ The goal is not to memorize syntax but rather to understand how it actually work
 
 ## How To Use This Repository
 
-This repo contains narrative analogies and code blocks that focus on specific parts of JavaScript's execution model, describing how the code is _behaves_ rather than how it is syntactically structured.
+This repo contains narrative analogies and code blocks that focus on specific parts of JavaScript's execution model, describing how the code _behaves_ rather than how it is syntactically structured.
 
 Explore the repo however you like, and copy and use whatever you want.
 
