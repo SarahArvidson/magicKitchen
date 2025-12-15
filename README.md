@@ -17,9 +17,8 @@ The goal is not to memorize syntax but rather to understand how it actually work
 - [Structure](#structure)
 - [magicKitchenSetUp](#magickitchensetup)
 - [magicKitchenBakeCookies: .forEach(), .map(), .filter()](#magickitchenbakecookies-foreach-map-filter)
-- [magicKitchenDogSafety: DOM and world building](#magickitchendogsafety-dom-and-world-building)
-- [magicKitchenDogEnchantment: events and reactions](#magickitchendogenchantment-events-and-reactions)
-
+- [magicKitchenDogSafety: document.body, parent-child DOM, script defer, set up](#magickitchendogsafety-documentbody-parent-child-dom-script-defer-set-up)
+- [magicKitchenDogEnchantment: events, addEventListener(), reactions](#magickitchendogenchantment-events-addeventlistener-reactions)
 
 ## How To Use This Repository
 
