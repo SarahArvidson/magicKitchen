@@ -12,6 +12,15 @@ magicKitchen is designed for learners who struggle with abstraction, symbol over
 
 The goal is not to memorize syntax but rather to understand how it actually works. This is for people who want to understand how JavaScript decides what runs, who it runs for, and why things sometimes fail silently instead of crashing.
 
+## Table of Contents
+
+- [Structure](#structure)
+- [magicKitchenSetUp](#magickitchensetup)
+- [magicKitchenBakeCookies: .forEach(), .map(), .filter()](#magickitchenbakecookies-foreach-map-filter)
+- [magicKitchenDogSafety: DOM and world building](#magickitchendogsafety-dom-and-world-building)
+- [magicKitchenDogEnchantment: events and reactions](#magickitchendogenchantment-events-and-reactions)
+
+
 ## How To Use This Repository
 
 This repo contains narrative analogies and code blocks that focus on specific parts of JavaScript's execution model, describing how the code is _behaves_ rather than how it is syntactically structured.
