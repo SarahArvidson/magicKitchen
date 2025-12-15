@@ -6,13 +6,25 @@ Hi, I'm Sarah, and I'm learning how to code with ADHD and Dyscalculia. I'm worki
 
 ## Overview
 
-This repository explains several core JavaScript concepts using a single consistent analogy called the MagicKitchen. I really like baking!
+magicKitchen explains several core JavaScript concepts using a single consistent series of analogies about baking. Baking is something I can do most of the time even though it has math involved and can be difficult with ADHD.
 
-The MagicKitchen Analogy is designed for learners who struggle with abstraction, symbol overload, mental bookkeeping, ADHD, and/or dyscalculia, but it is also accurate enough to hold up under real JavaScript behavior.
+magicKitchen is designed for learners who struggle with abstraction, symbol overload, mental bookkeeping, ADHD, and/or dyscalculia, but it is also accurate enough to hold up under real JavaScript behavior.
 
 The goal is not to memorize syntax but rather to understand how it actually works. This is for people who want to understand how JavaScript decides what runs, who it runs for, and why things sometimes fail silently instead of crashing.
 
-## Analogy #1: Objects, Methods, Callers, and Arrow Functions
+## How To Use This Repository
+
+This repo contains narrative analogies and code blocks that focus on specific parts of JavaScript's execution model, describing how the code is _behaves_ rather than how it is syntactically structured.
+
+Explore the repo however you like, and copy and use whatever you want.
+
+- You can read each analogy as a narrative here in the README.
+
+- You can also read analogy written out _as code_ in its own code file here in the repo; the title of the code file matches the title of the section in the README. Each bit of code has a bit of analogical explanation alongside it.
+
+Analogy names and finally names are descriptive rather than numerically sequential, because I have a hard time remembering numbers.
+
+## magicKitchenSetUp: Objects, Methods, Callers, and Arrow Functions
 
 Even though people are people and not objects, for the sake of the analogy we pretend that Sarah and Alex are baker objects.
 
@@ -76,7 +88,7 @@ Factories are safer than global objects because they prevent multiple users from
 
 ---
 
-## Analogy #2: .forEach(), .map(), .filter()
+## magicKitchenBakeCookies: .forEach(), .map(), .filter()
 
 Even though people are people and not objects, for the sake of this analogy, Sarah is a baker object.
 
