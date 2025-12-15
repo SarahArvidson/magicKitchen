@@ -22,7 +22,7 @@ Explore the repo however you like, and copy and use whatever you want.
 
 - You can also read analogy written out _as code_ in its own code file here in the repo; the title of the code file matches the title of the section in the README. Each bit of code has a bit of analogical explanation alongside it.
 
-Analogy names and finally names are descriptive rather than numerically sequential, because I have a hard time remembering numbers.
+Analogy names and file names are descriptive rather than numerically sequential, because I have a hard time remembering numbers.
 
 ## magicKitchenSetUp: Objects, Methods, Callers, and Arrow Functions
 
