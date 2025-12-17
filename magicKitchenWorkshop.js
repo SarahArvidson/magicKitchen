@@ -17,7 +17,6 @@ function buildBaseKitchen() {
 
 // Patrons will need to choose from one of the existing classes, or types of kitchen builds
 
-
 // CLASS 1: Defense Against the Dark Farts
 // This is a certified kitchen TYPE
 // It does not build kitchens
@@ -29,7 +28,6 @@ class DefenseAgainstTheDarkFartsKitchen {
     return kitchen;
   }
 }
-
 
 // CLASS 2: Werewolf Kitchen
 // Another certified kitchen TYPE
@@ -43,7 +41,7 @@ class WerewolfKitchen {
       "goat",
       "whale",
       "mermaid",
-      "mystery creature"
+      "mystery creature",
     ];
     kitchen.moonPhaseClock = true;
     kitchen.features.push("Werewolf accommodations");
@@ -73,5 +71,26 @@ function magicKitchenWorkshop(kitchenType) {
 const mollyKitchen = magicKitchenWorkshop("defense");
 const remusKitchen = magicKitchenWorkshop("werewolf");
 
+//magicKitchenInstallation
 
+// INSTALLER CLASS
+// This class does not design or upgrade kitchens
+// It manages a specific installation
+class KitchenInstaller {
+  constructor(kitchen, wizardName) {
+    // Here is where Codecademy’s explanation of `this` applies
+    // `this` refers to the installer instance
+    // The installer now owns the installed kitchen
+    this.kitchen = kitchen;
+    this.installedFor = wizardName;
+    this.installed = false;
+  }
 
+  install() {
+    this.installed = true;
+    return `Kitchen successfully installed for ${this.installedFor}`;
+  }
+}
+
+//How to call the class above
+const installer = new KitchenInstaller(werewolfKitchen, "Remus");

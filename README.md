@@ -348,11 +348,40 @@ In magicKitchenWorkshop, the process works like this
 - The chosen class applies its rules and additions to the kitchen
 - The finished kitchen is magically delivered and installed
 
-This mirrors JavaScript behavior because:
-
-- Factory functions create objects
-- Classes define types and rules
-- Classes are referenced, not nested
-- The object returned at the end is the same kitchen, now fully defined
-
 Nothing magical happens at runtime that was not designed ahead of time. The world is built first. Then it reacts, werewolves can chew on bones, and witches can control their farts.
+
+### magicKitchenWorkshop (continued): installation day and why classes felt like factories
+
+This was really confusing to me at first. The magicKitchenWorkshop narrative and code were built because I needed to work through this confusion.
+
+Up until now, every MagicKitchen has been created by a factory function. Each time the factory runs, a complete kitchen object appears, ready to use.
+
+Codecademy introduces classes after teaching factory functions, and says things like:
+
+- A class produces objects
+- The constructor builds the instance
+- <b>this</b> refers to the object being created
+
+To me, this sounded exactly like how factory functions had already been explained, and that was not a misunderstanding.
+
+A factory function builds an object and hands it off. Once the object exists, the factory is no longer involved. It does not remember the object, track it, or take responsibility for it.
+
+A class creates an object and then owns it. Ownership means the object’s data lives on the instance, is accessed through _this_, and is assumed to persist and remain valid for as long as the instance exists. The class’s methods are written with that responsibility in mind.
+
+Classes feel like factories when the thing they do is creation. They feel different once it becomes clear that they also stay attached to, manage, and reason about the thing they created.
+
+To make that difference visible instead of abstract, magicKitchenWorkshop adds one more step.
+
+### Installation Day
+
+When a wizard orders a kitchen from magicKitchenWorkshop, the kitchen is not magically teleported into their house fully integrated.
+
+Instead, a certified magical installer arrives.
+
+- The installer does not design the kitchen.
+- The installer does not choose the kitchen type.
+- The installer does not decide what tools exist.
+
+The installer’s job is to take a finished kitchen and permanently install it into a specific home.
+
+This is where a class behaves like a factory in the way Codecademy describes.
