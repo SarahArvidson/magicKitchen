@@ -37,4 +37,4 @@ The elements exist.
 The rules exist.  
 Nothing is reacting... _yet_.
 
-[← Previous](./<prev>.md) | [Next →](./<next>.md)
+[← Previous](./bake-cookies.md) | [Next →](./dog-enchantment.md)

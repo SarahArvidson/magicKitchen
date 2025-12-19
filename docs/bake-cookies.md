@@ -94,4 +94,4 @@ She places a tray of cookies on the counter and tells the magicKitchen to visit 
 
 In the magicKitchen, appliances adapt to the kitchen, the muggle oven refuses to adapt, and Quality Control House Elves act on one cookie at a time: inspecting with `.forEach()`, upgrading by baking a new batch with `.map()`, and selecting the best cookies for gifting with `.filter()`.
 
-[← Previous](./<prev>.md) | [Next →](./<next>.md)
+[← Previous](./setup.md) | [Next →](./dog-safety.md)

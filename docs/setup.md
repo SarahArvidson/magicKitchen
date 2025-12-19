@@ -63,4 +63,4 @@ Factories are safer than global objects because they prevent multiple users from
 
 See `magicKitchenSetUp.js` in the repository for the code that accompanies this analogy.
 
-[← Previous](./<prev>.md) | [Next →](./<next>.md)
+[← Previous](./index.md) | [Next →](./bake-cookies.md)

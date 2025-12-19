@@ -45,4 +45,4 @@ This is what JavaScript events are like.
 
 And maybe, just maybe, if you're very lucky, your dog can talk and he loves the way you bake.
 
-[← Previous](./<prev>.md) | [Next →](./<next>.md)
+[← Previous](./dog-safety.md) | [Next →](./workshop.md)

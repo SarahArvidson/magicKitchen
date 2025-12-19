@@ -100,4 +100,4 @@ The installer’s job is to take a finished kitchen and permanently install it i
 
 This is where a class behaves like a factory in the way Codecademy describes.
 
-[← Previous](./<prev>.md) | [Next →](./<next>.md)
+[← Previous](./dog-enchantment.md) | [Next →](./elves.md)
