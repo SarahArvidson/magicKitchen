@@ -60,4 +60,4 @@ This separation helps clarify that:
 - classes produce people like objects that persist
 - subclasses exist to represent more specific types that still share a common base
 
-[← Previous](./workshop.md) |
+[← Previous](./workshop.md) | [Next →](./franchise.md)

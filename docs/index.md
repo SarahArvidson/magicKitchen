@@ -12,3 +12,4 @@ Each chapter explains one or more JavaScript concepts using story-driven example
 - [Dog Enchantment](./dog-enchantment.md)
 - [Workshop](./workshop.md)
 - [House Elves](./elves.md)
+- [Franchise](/.franchise.md)

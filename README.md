@@ -23,6 +23,7 @@ The project is designed for learners who struggle with abstraction, symbol overl
   - classes
   - inheritance
   - event listeners and DOM behavior
+  - modules, imports, and exports
 
 Each chapter maps a programming concept to a practical analogy in the MagicKitchen world.
 
@@ -42,6 +43,7 @@ Or jump directly to a chapter:
 - [Dog Enchantment](docs/dog-enchantment.md)
 - [Workshop](docs/workshop.md)
 - [House Elves](docs/elves.md)
+- [Franchise](docs/franchise.md)
 
 ## Using this repository
 
